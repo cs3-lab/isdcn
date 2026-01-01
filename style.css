@@ -147,10 +147,28 @@ header.scrolled .menu-toggle span {
 }
 
 .hero-content p {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
+    font-size: 1.1rem;
 }
-
+.registration-info {
+    font-size: 0.95em;
+    color: #007BFF; /* subtle highlight */
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+.reg-number {
+    font-style: normal;   /* removes italic */
+    font-weight: 600;     /* makes it stand out */
+    color: #007BFF;          /* more formal look */
+}
+.address {
+    font-style: normal;
+    color: #555;
+}
+.label {
+    font-weight: 600;
+    color: #333;
+}
 /* Sections */
 section {
     padding: 4rem 2rem;
