@@ -324,6 +324,26 @@ footer {
 
 /* Responsiveness */
 @media (max-width: 768px) {
+    header.scrolled {
+        background-color: #fff; /* keep mobile scrolled header white */
+    }
+
+    header.scrolled .logo {
+        color: #0066cc; /* logo remains blue */
+    }
+
+    header.scrolled .nav-links a {
+        color: #000; /* black text for mobile links when scrolled */
+    }
+
+    header.scrolled .nav-links a:hover,
+    header.scrolled .nav-links a.active {
+        color: #0066cc; /* blue hover/active on mobile */
+    }
+
+    header.scrolled .menu-toggle span {
+        background-color: #000; /* hamburger black when scrolled */
+    }
     nav {
         flex-direction: row;
         padding: 1rem;
@@ -335,7 +355,7 @@ footer {
         top: 100%;
         left: 0;
         right: 0;
-        background-color: #fff;
+        background-color: #ffffff;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         display: none;
         padding: 1rem;
