@@ -131,7 +131,7 @@ header.scrolled .menu-toggle span {
 .hero-logo img {
     max-width: 100%;
     height: auto;
-    max-height: 200px; /* Adjust as needed */
+    max-height: 250px; /* Adjust as needed */
 }
 
 .hero-content {
@@ -169,6 +169,20 @@ header.scrolled .menu-toggle span {
     font-weight: 600;
     color: #333;
 }
+.contact-email {
+    margin-top: 8px;
+    font-size: 1rem;
+    color: #555;
+}
+
+.contact-email a {
+    font-weight: 500;
+}
+
+.contact-email a:hover {
+    text-decoration: underline;
+}
+
 /* Sections */
 section {
     padding: 4rem 2rem;
@@ -376,6 +390,28 @@ footer {
 }
 .social-links a i {
     font-size: 18px;
+}
+
+.footer-email {
+    font-size: 0.95rem;
+    color: #333; /* same as copyright */
+    margin-bottom: 0.5rem;
+}
+
+.footer-email i {
+    margin-right: 6px;
+    color: inherit; /* same color as text */
+}
+
+.footer-email a {
+    color: inherit; /* normal text color */
+    font-weight: 400;
+    transition: color 0.3s ease;
+}
+
+.footer-email a:hover {
+    color: #0066cc; /* blue on hover */
+    text-decoration: underline;
 }
 
 
