@@ -359,6 +359,84 @@ tbody tr:hover {
     background-color: #e6f0ff; /* light blue on hover */
 }
 
+/* Conference */
+/* ICDCN Conference Section */
+.conference-content {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.conference-description {
+    font-size: 1.05rem;
+    color: #444;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.committee-section {
+    margin-top: 2.5rem;
+}
+
+.committee-section h3 {
+    font-size: 1.4rem;
+    color: #0066cc;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.committee-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.committee-list li {
+    background: #f9f9f9;
+    margin-bottom: 0.6rem;
+    padding: 12px 16px;
+    border-left: 4px solid #0066cc;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    color: #333;
+}
+
+.conference-description em {
+    font-style: italic;
+    color: #555;
+}
+
+.conference-website {
+    text-align: center;
+    margin: 2rem 0 1.5rem;
+    font-size: 1rem;
+    color: #333;
+}
+
+.conference-website a {
+    color: #0066cc;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.conference-website a:hover {
+    color: #004d99;
+    text-decoration: underline;
+}
+
+
+/* Mobile optimization */
+@media (max-width: 768px) {
+    .conference-description {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .committee-list li {
+        font-size: 0.9rem;
+    }
+}
+
+
 /* Footer */
 footer {
     background-color: #f0f8ff;
